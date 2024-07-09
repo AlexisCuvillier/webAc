@@ -33,3 +33,13 @@ cards.forEach((card) => {
   });
 });
 // END
+
+// Button scroll top
+
+var btn = document.getElementById("btn_top");
+
+btn.addEventListener("click", () => {
+  window.scrollTo({ top: 0, behavior: "smooth" });
+});
+
+// END
